@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX-BOX LAYOUT</title>
+    <link rel="stylesheet" href="./style.css">
+</head> 
+<body>
+    <header class="header">
+        <h3>Food website</h3>
+        <span>&#9776;</span>
+    </header>
+
+    <main>
+        <h2 class="food-menu">Food Menu</h2>
+        <div class="image-container">
+
+            <div class="box"><img src="./images/image1.jpg" alt="">
+                <small>Fried Rice</small>
+            </div>
+            <div class="box"><img src="./images/image2.jpg" alt="">
+                <small>Jollof Rice</small>
+            </div>
+            <div class="box"><img src="./images/image3.jpg" alt="">
+                <small>Ofada Rice</small>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Reena food website </p>
+        <div>
+            <span>Codevixen academy</span>
+            <small id="date"></small>
+        </div>
+
+    </footer>
+    <script>
+        document.getElementById('date').innerHTML = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
